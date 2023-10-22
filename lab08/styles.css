@@ -1,0 +1,23 @@
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1,h2 {color: #E5C3A6;
+        font-size: 1em;}
+.evenrow {
+    background-color: #4B527E;
+}
+body { 
+    background-color: #E55604;}
+    p {
+        color: #176B87;
+        background-color: #E5C3A6;
+        padding:20px;
+        border: 2px solid #7C81AD;
+        margin: 40px;
+    }
+   nav {
+    background-color: #E5C3A6;
+    color: #176B87;
+    padding: 10px;
+margin-bottom: 30px;}
+nav a {color: #176B87;}
+nav a:hover {background-color: #11a5d6;}
