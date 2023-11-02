@@ -14,3 +14,4 @@ body {
 margin-bottom: 30px;}
 nav a {color: #176B87;}
 nav a:hover {background-color: #11a5d6;}
+.size {max-width: 40%;}
