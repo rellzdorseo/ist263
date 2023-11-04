@@ -14,7 +14,23 @@ body {
 margin-bottom: 30px;}
 nav a {color: #176B87;}
 nav a:hover {background-color: #11a5d6;}
-
-@media only screen and (min-width:100px) {
-    .size{display:inline;}
-}
+.size {max-width: 100%;}
+@media screen and (max-width: 768px) {
+    nav a {
+      width: 100%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav span {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav a {
+      width: 100%;
+      display: block;
+      margin: 5px 0; /* Adjust the top and bottom margin as needed */
+    }
+  }
+  
