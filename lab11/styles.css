@@ -1,6 +1,6 @@
 body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h1,h2 {color: #E5C3A6;}
+h1,h2 {color: #000000;}
 .evenrow {
     background-color: #4B527E;
 }
@@ -8,11 +8,11 @@ body {
     background-color: #E55604;}
     
    nav {
-    background-color: #E5C3A6;
+    background-color: #000000;
     color: #176B87;
     padding: 10px;
 margin-bottom: 30px;}
-nav a {color: #176B87;}
+nav a {color: #27c9ff;}
 nav a:hover {background-color: #11a5d6;}
 .size {max-width: 100%;}
 @media screen and (max-width: 768px) {
