@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills.html </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        td, th {border: 1px solid black;}
+        h1 {font-size: 300%; text-align: center;}
+        .rightcol {flex-basis: 60%; padding: 20px;}
+        .flex-row {display: flex;justify-content: space-between;}
+        
+        .other-skills {
+            flex-basis: 100%; 
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #666666;
+            color: #ffffff;
+        }
+        .other-skills h2 {
+            font-size: 200%;
+        }
+        
+        .flex2 {
+            display: flex;
+           
+        }
+        .flex2 .flex-row {
+            flex-basis: 50%; /* Two columns */
+        }
+        .flex2 .rightcol {
+            flex-basis: 50%;
+            padding: 20px;
+        }
+        
+body {
+    margin: 20px; 
+}
+
+
+h1, p {
+    margin-bottom: 20px; 
+}
+
+
+#skip-to-content {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            z-index: 999;
+        }
+
+        /* Hide the skip button when it's not focused */
+        #skip-to-content:not(:focus) {
+            clip: rect(0,0,0,0);
+            position: absolute;
+        }
+
+    
+     
+
+
+    </style>
+</head>
+<body>  
+    <a href="#main-content" id="skip-to-content" tabindex="1">Skip to Content</a>
+
+    <nav>
+        <a href="index.html">Home</a> 
+        <span>|</span>
+        <a href="skills.html">Skills</a> 
+        <span>|</span>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Technical Skills</h1>
+    <p>My skills table is basically about my categories to do with IT, which I'm majoring in and the skills of each category and how efficient I am in each skill.</p>
+
+    <div class="flex2">
+        <!-- Flexbox 1 -->
+        <div class="rightcol">
+            <div class="flex-row">
+                <div>Html<br>
+                    <img src="../images/html.png" width=100 length=50>
+                </div>
+                <div>Coding<br>
+                    <img src="../images/coding.png" width=100 length=50>
+                </div>
+                <div>Networking<br>
+                    <img src="../images/networking.png" width=100 length=50>
+                </div>
+                <div>Photo Editing<br>
+                    <img src="../images/photoediting.png" width=100 length=50>
+                </div>
+                <div>Applications<br>
+                    <img src="../images/application.png" width=100 length=50>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Flexbox 2 - New Container for "Other Skills" -->
+        <div class="rightcol">
+            <div class="flex-row">
+                <aside class="other-skills">
+                    <h2>Other Skills</h2>
+                    <p>Windows 10 </p>
+                    <p>Excel</p> 
+                    <p>Data Mining</p>
+                    <p>Benchmarking</p>
+                </aside>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
