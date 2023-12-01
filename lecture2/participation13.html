@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Change Page</title>
+    <style>
+        /* Styling for the div */
+        #textContainer {
+            font-size: 24px;
+            padding: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="textContainer" onclick="changeText()">Syracuse University</div>
+
+    <script>
+        function changeText() {
+            var textContainer = document.getElementById("textContainer");
+
+            if (textContainer.innerHTML === "Syracuse University") {
+                textContainer.innerHTML = "Orange Nation";
+                textContainer.style.color = "orange";
+            } else {
+                textContainer.innerHTML = "Syracuse University";
+                textContainer.style.color = ""; // Reset to default color
+            }
+        }
+    </script>
+</body>
+</html>
