@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilo Locator</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .profile-box {
+            width: 48%; /* Adjust as needed, leave some space for margins */
+            margin: 1%;
+            border: 2px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .profile-image {
+            max-width: 100%;
+            height: 120px;
+        }
+
+        .find-more-button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            background-color: #11a5d6;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .row {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        /* Add this style for each individual column */
+        .single {
+            width: 20%; /* Adjust the width as needed */
+            text-align: center;
+            footer {
+            text-align: right;
+            padding-right: 20px; /* Optional padding for better spacing */
+        }
+        }
+
+        </style>
+        <script>
+
+
+
+        </script>
+</head>
+<body>
+    <h1>Profilo Locator</h1>
+    <nav>
+        <a href="pg1.html">Home</a> 
+        <span>|</span>
+        <a href="pg2.html">Skills/Trade</a> 
+        <button><a href="contact.html">Contact Us</a></button>
+        <button><a href="job-opportunities.html">Job Opportunities</a></button>
+    </nav>
+    <h1><strong>Trade skills in this area</strong></h1>
+    <form>
+    <label for="address">Change Location:</label>
+<textarea id="address" name="address" rows="4" cols="50" placeholder="City, State, Zip Code"></textarea>
+<br>
+
+<label for="filterByTrade">Filter by Trade:</label>
+<select id="filterByTrade" name="filterByTrade">
+    <option value="electrician">Electrician</option>
+    <option value="plumber">Plumber</option>
+    <option value="carpenter">Carpenter</option>
+    <!-- Add more options as needed -->
+</select>
+<input type="submit" value="Enter">
+</form>
+<h2>Profilo"s In (that area), (that trade)</h2>
+    <a href="pg3.html" class="profile-box">
+        <img class="profile-image" src="../images/construction1.jpeg" alt="Profile 1">
+        <p><strong>Name:</strong> Ethan Johnson</p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </a>
+    <a href="pg4.html" class="profile-box">
+        <img class="profile-image" src="../images/construction2.jpeg" alt="Profile 2">
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </a>
+    <a href="pg5.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/contruction3.jpeg" alt="Profile 3">
+        <p><strong>Name:</strong>Caleb Mitchell </p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <a href="pg6.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/construction4.jpeg" alt="Profile 4">
+        <p><strong>Name:</strong>Gavin Williams </p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <a href="pg3.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/construction5.jpeg" alt="Profile 5">
+        <p><strong>Name:</strong> Emma Robinson</p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <a href="pg3.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/constuction6.jpeg" alt="Profile 6">
+        <p><strong>Name:</strong> Isaac Turner</p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <a href="pg3.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/construction7.jpg" alt="Profile 7">
+        <p><strong>Name:</strong> Mason Taylor</p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <a href="pg3.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/construction8.jpg" alt="Profile 8">
+        <p><strong>Name:</strong> Wyatt Anderson</p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <a href="pg3.html" class="profile-box">
+    <div class="profile-box">
+        <img class="profile-image" src="../images/construction9.jpeg" alt="Profile 9">
+        <p><strong>Name:</strong>Oliver Brooks </p>
+        <p><strong>Profession:</strong> Electrician</p>
+    </div>
+    </a>
+    <button class="find-more-button">Find More</button>
+    <hr>
+
+
+
+<p>
+
+
+
+
+
+
+
+</p>
+    <footer>
+        <div class="row">
+            <div class="single">
+                <p><strong> Find a job </strong><br>Request Tradesman<br>Location</p>
+            </div>
+            <div class="single">
+                <p><strong>Resources </strong><br>For Customers<br>For Tradesman</p>
+            </div>
+            <div class="single">
+                <p><strong>Company</strong><br>About Us</p>
+            </div>
+            <div class="single">
+                <p><strong>Terms and Conditions</strong><br>Privacy<br>Code Of Conduct</p>
+            </div>
+        </div>
+        <hr>
+       <div>&copy;2023 Profilo locator. All rights reserved.</div>
+    </footer>
+</body>
+</html>
