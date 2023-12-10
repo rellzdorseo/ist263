@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        #modal-close{
+            text-align: right;
+            margin:0px;
+        }
+        #modal{
+            background-color: #ffffff;
+            border:1px solid #000;
+            width: 200px;
+            padding:5px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            margin:-100px -100px;
+            display:none;
+        }
+        #container {
+            position:relative;
+            margin: 0 auto;
+            width:800px;
+        }
+       a {
+        background-color: #f2b9c5;
+       }
+    </style>
+    <script>
+        function openModal (){
+            document.getElementById("modal").style.display="block";
+        }
+        function closeModal (){
+            document.getElementById("modal").style.display="none";
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+    <img scr=" https://laferger.github.io/ist263/images/cupcakes.jpg" alt="banner of a cupcake">
+    <h1>Desserts</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil omnis ipsa eveniet, veniam aspernatur facilis et quasi eaque nemo vitae. A doloribus rerum aut consectetur veniam aliquam quod sint reprehenderit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dicta nam culpa earum tempore numquam in quis, recusandae iure excepturi corporis optio similique accusantium maiores! Molestias, temporibus. Atque, laboriosam sed.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolores deleniti accusamus qui consequuntur est adipisci soluta non expedita ab distinctio, esse, nobis facere ipsam! Earum voluptate eveniet nihil laudantium.
+    </p>
+    <p><a onclick="openModal();">Subscribe to our Newsletter</a></p>
+</div>
+    <div id="modal">
+        <p id="modal-close" onclick="closeModal();">X</p>
+   <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email"> Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <input type="submit" class="button" value="Subscribe">
+   </form>
+</div>
+</body>
+</html>
