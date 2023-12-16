@@ -1,12 +1,12 @@
 body { 
-    background-color: #0478e5;}
+    background-color: #0478e5;
+    font-family: 'Kanit', sans-serif;}
     form {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
       }
-      body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      }
+      
       #address {
         width: 40%;
         margin-right: 10px;
@@ -50,7 +50,4 @@ body {
           margin: 5px 0; /* Adjust the top and bottom margin as needed */
         }
       }
-      font-family: 'Dhurjati', sans-serif;
-      font-family: 'Roboto Condensed', sans-serif;
-
     
