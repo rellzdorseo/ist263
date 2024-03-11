@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Rollover</title>
+    <script>
+        /* the following locates an element with an id of arrow it changes an atrribue scr to whatever in the quotes*/
+        function change (){
+            document.getElementById("arrow").setAttribute("scr","http://laferger.github.io/ist263/images/arrow_over.PNG");
+        }
+        function changeBack (){
+            document.getElementById("arrow").setAttribute("scr","http://laferger.github.io/ist263/images/arrow_over.PNG");
+        }
+
+    </script>
 </head>
 <body>
-   <img src="http://laferger.github.io/ist263/images/arrow.PNG" 
+    <!--id attribute with a value of arrow and an event when the mouse goes over the image-->
+   <img id="arrow" onmouseover="change"="http://laferger.github.io/ist263/images/arrow.PNG" >
+
 </body>
 </html>

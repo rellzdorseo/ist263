@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Picker</title>
     <script>
+        /* first part locates the ting we want to change and specifies chanhging its bg color second part locates what we to change it to and get form field value*/
         function changeColor () {
         document.getElementById("thePage").style.backgroundColor = document.getElementById ("picker").value;
         }
@@ -12,6 +13,7 @@
 </head>
 <body id="thePage">
     <form>
+        <!--all functions need an event -->
         <input type="color" id="picker" onchange="changeColor();">
     </form>
 </body>
